@@ -1,0 +1,50 @@
+body.home {
+
+    /* portfolio section */
+
+#portfolio-section {
+    background: #f76b00; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  $tertiary-color 0%, lighten($tertiary-color , 30%) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  $tertiary-color 0%,lighten($tertiary-color , 30%) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  $tertiary-color 0%,lighten($tertiary-color , 30%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$tertiary-color, endColorstr=lighten($tertiary-color , 30%),GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+    /* services section */
+
+    #services-section {
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f76b00+0,d86acb+100 */
+background: #f76b00; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #f76b00 0%, #d86acb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #f76b00 0%,#d86acb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #f76b00 0%,#d86acb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f76b00', endColorstr='#d86acb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+.ect-service {
+            .hentry-inner {
+                border-color: white;
+                .post-thumbnail {
+                    a {
+                        border-radius: 20px;
+                        border: 1px solid white;
+                        img {
+                            margin: 10px;
+                            border-radius: 20px;
+                            box-shadow: 0px 0px 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .site-main {
+        header {
+            h1 {
+                display: none;
+            }
+        }
+    }
+}

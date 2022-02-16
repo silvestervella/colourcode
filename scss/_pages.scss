@@ -1,0 +1,80 @@
+/* prices page */
+
+.wp-block-columns {
+    .prices-outer {
+        .prices-col {
+            border: 1px solid $primary-color;
+            border-radius: 30px;
+            background: darken($tertiary-color , 15%);
+            padding: 30px;
+            //color: lighten($grey, 70%);
+            font-size: 1rem;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff8605+7,4f00af+100 */
+background: #ff8605; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #ff8605 7%, #4f00af 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #ff8605 7%,#4f00af 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #ff8605 7%,#4f00af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8605', endColorstr='#4f00af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            h4 {
+                color: $secondry-color;
+                padding-bottom: 2rem;
+                border-bottom: 1px solid $secondry-color;
+            }
+        }
+    }
+}
+
+
+/* portfolio page */
+
+.post-type-archive {
+    .archive-posts-wrapper {
+        .jetpack-portfolio {
+            .post-wrapper {
+                margin: 0;
+                .post-thumbnail {
+                    background: rgba(255,255,255,0.1);
+                    padding: 50px;
+                    margin: 0;
+                    &::after {
+                        content: '';
+  
+                    }
+                    img {
+                        max-width: 500px;
+                        box-shadow: 0px 0px 30px white;
+                        border-radius: 30px;
+                    }
+                }
+                .entry-container {
+                    background: $tertiary-color;
+                    padding: 50px;
+                }
+            }
+        }
+    }
+}
+
+/* Portfolios */
+
+.single-jetpack-portfolio {
+    .wp-block-gallery {
+        .blocks-gallery-item {
+            figure {
+                padding: 2rem;
+                background: rgba(255,255,255,0.1);
+                transition: all 0.2s;
+                border: 1px solid transparent;
+                img {
+                    box-shadow: 0px 0px 30px white;
+                    border-radius: 30px;
+                }
+                &:hover {
+                    padding: 2.5rem;
+                    border: 1px solid rgba(255,255,255,0.3);
+                }
+            }
+        }
+    }
+}

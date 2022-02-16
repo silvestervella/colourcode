@@ -1,0 +1,17 @@
+.site-header-main {
+    .custom-logo {
+        width: 100%;
+        max-width: 150px;
+    }
+}
+.header-media {
+    .custom-header-media {
+        .entry-header {
+            .entry-title {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}

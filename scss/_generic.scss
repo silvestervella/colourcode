@@ -1,0 +1,30 @@
+/* General */
+
+body {
+    background-color: $grey;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9f54bc+0,610096+99 */
+background: #9f54bc; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #9f54bc 0%, #610096 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #9f54bc 0%,#610096 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #9f54bc 0%,#610096 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f54bc', endColorstr='#610096',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.custom-header, .author-info, .sidebar .widget, .menu-inside-wrapper, .mobile-social-search, #footer-newsletter, .sidebar .widget-wrap, mark, ins, .portfolio-section .hentry .hentry-inner:after, ul.tabs.wc-tabs li.active a, .woocommerce-Tabs-panel, .promotion-sale-wrapper, #skill-section, .shop_table thead th, ul.wc_payment_methods.payment_methods.methods li, .comment-respond, .menu-inside-wrapper #site-header-cart-wrapper a:hover, .widget_shopping_cart_content, pre, .widget .ui-tabs .ui-tabs-panel, #gallery-section .gallery-item .gallery-caption, #testimonial-content-section .entry-container, .pricing-section .hentry-inner, .pricing-section .highlight .more-link .readmore:hover, .pricing-section .highlight .more-link .readmore:focus, .wp-playlist .mejs-controls .mejs-time-rail .mejs-time-loaded, .wp-playlist .mejs-controls .mejs-time-rail .mejs-time-total, .wp-playlist .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, .hover-add-to-cart .woocommerce .product-container .button:hover, .hover-add-to-cart .woocommerce .product-container .button:focus, .hover-add-to-cart .woocommerce .product-container .wc-forward:hover, .hover-add-to-cart .woocommerce .product-container .wc-forward:focus, .wpcf7, .site-footer input[type="text"], .site-footer input[type="email"], .site-footer input[type="url"], .site-footer input[type="password"], .site-footer input[type="search"], .site-footer input[type="number"], .site-footer input[type="tel"], .site-footer input[type="range"], .site-footer input[type="date"], .site-footer input[type="month"], .site-footer input[type="week"], .site-footer input[type="time"], .site-footer input[type="datetime"], .site-footer input[type="datetime-local"], .site-footer input[type="color"], .site-footer textarea, .site-footer select, #team-content-section.style-one .team-content-wrapper .entry-container, .wp-playlist .wp-playlist-current-item, .team-tab .ui-tabs-panel .social-navigation a, .team-tab .ui-tabs-panel .social-links-menu a {
+    background-color: darken($tertiary-color, 10%);
+    border-bottom: 1px solid $primary-color;
+}
+
+body, button, input, select, textarea {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.entry-title, ul.products li.product .woocommerce-loop-product__title, .woocommerce-loop-category__title, .contact-content-wrapper .contact-us-form .entry-title, .section-title {
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
